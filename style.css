@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.caption {
+    text-align: center; 
+    font-size: 34px; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.second-table {
+    width: 400px;
+    height: 400px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(0.65);
+    padding: 45px;
+    border-style:groove;
+    background-color:darkgray;
+    margin: 10px;
+    border: 10px solid black;
+}
+
+.second-table tr td {
+    width: 100px;
+    height: 95px;
+}
+
+.second-table .total {
+    border-style: solid;
+    border-color: black;
+    text-align: right;
+}
+
+.zero {
+    width: 195px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+button {
+    width: 95px;
+    height: 90px;
+    border: 2px solid black; 
+    background-color: whitesmoke;
+    color: black;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.aaa {
+    background-color: orange;
+    color: black;
+}
+
+.aaa:hover {
+    background-color: red;
+}
+
+.calculator-operation {
+    background-color: orange;
+    height: 90px;
+}
+
+.calculator-operation:hover {
+    background-color: red;
+}
+
+.second-table .total {
+    font-size: 34px;
+    background-color: greenyellow;
+}

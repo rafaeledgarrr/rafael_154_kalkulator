@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+
+</head>
+
+<body>
+    <div class="calculator">
+        <table class="second-table">
+            <caption class="caption">Kalkulator</caption> 
+            <tr>
+                <td colspan="4" class="total"><span id="total"></span></td>
+            </tr>
+            <tr>
+                <td><button onclick="resetTotal()" class="aaa">Reset</button></td>
+                <td><button onclick="toggleSign()" class="aaa">+/-</button></td>
+                <td><button onclick="percentage()" class="aaa">%</button></td>
+                <td><button onclick="divide()" class="calculator-operation">:</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="sec(7)">7</button></td>
+                <td><button onclick="sec(8)">8</button></td>
+                <td><button onclick="sec(9)">9</button></td>
+                <td><button onclick="multiply()" class="calculator-operation">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="sec(4)">4</button></td>
+                <td><button onclick="sec(5)">5</button></td>
+                <td><button onclick="sec(6)">6</button></td>
+                <td><button onclick="subtract()" class="calculator-operation">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="sec(1)">1</button></td>
+                <td><button onclick="sec(2)">2</button></td>
+                <td><button onclick="sec(3)">3</button></td>
+                <td><button onclick="add()" class="calculator-operation">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="sec(0)" class="zero">0</button></td>
+                <td><button onclick="addDecimal()">,</button></td>
+                <td><button onclick="calculateResult()" class="calculator-operation">=</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
